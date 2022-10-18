@@ -26,14 +26,26 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
   margin: 0;
   padding: 0;
 }
 
-ul {
-  list-style: none;
+p {
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style-type: none;
 }
 
 .logo {
@@ -88,6 +100,9 @@ ul {
   line-height: 1.63;
   cursor: pointer;
   font-family: inherit;
+  display: block;
+  border-radius: 4px;
+  padding: 10px 41px;
 }
 
 .button:hover,
@@ -160,4 +175,38 @@ ul {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  align-items: center;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 15px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.navigation-logo {
+  margin-right: 88px;
+}
+
+.header .contact-list {
+  display: flex;
+  /* margin-right: 227px; */
+}
+
+.contact-list-item:not(:first-child) {
+  margin-left: 50px;
 }
