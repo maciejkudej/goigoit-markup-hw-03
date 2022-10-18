@@ -129,6 +129,10 @@ img {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  padding: 200px 252px 30px 252px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hidden {
@@ -204,9 +208,16 @@ img {
 
 .header .contact-list {
   display: flex;
-  /* margin-right: 227px; */
 }
 
 .contact-list-item:not(:first-child) {
   margin-left: 50px;
+}
+
+.section-title .container {
+  height: 600px;
+}
+
+.section-title .button {
+  margin: 0 500px;
 }
