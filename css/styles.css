@@ -137,6 +137,7 @@ img {
 
 .hidden {
   visibility: hidden;
+  height: 94px;
 }
 
 .small-header {
@@ -220,4 +221,9 @@ img {
 
 .section-title .button {
   margin: 0 500px;
+}
+
+.application-list {
+  display: flex;
+  flex-direction: row;
 }
