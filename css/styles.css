@@ -119,6 +119,7 @@ img {
 
 .team {
   background-color: var(--background-grey);
+  padding-top: 94px;
 }
 
 .white {
@@ -151,6 +152,8 @@ img {
   font-weight: 500;
   line-height: 1.17;
   color: var(--font-dark);
+  text-align: center;
+  padding-top: 30px;
 }
 .small-header-portfolio {
   font-size: 18px;
@@ -162,6 +165,7 @@ img {
   font-size: 36px;
   line-height: 1.17;
   color: var(--font-dark);
+  text-align: center;
 }
 
 .non-italic {
@@ -172,6 +176,8 @@ img {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.71;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .container {
@@ -226,4 +232,45 @@ img {
 .application-list {
   display: flex;
   flex-direction: row;
+}
+
+.presentation .container {
+  height: auto;
+  margin: 94px auto;
+}
+
+.presentation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.designers .container {
+  height: auto;
+  padding-top: 94px auto;
+}
+
+.designers-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+
+.designers-photo {
+  height: 368px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.btn .container {
+  padding-top: 94px;
+}
+
+.btn-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
