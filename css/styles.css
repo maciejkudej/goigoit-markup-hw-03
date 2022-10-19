@@ -149,6 +149,11 @@ img {
   height: 74px;
 }
 
+.portfolio-hidden {
+  visibility: hidden;
+  height: 34px;
+}
+
 .small-header {
   font-size: 14px;
   line-height: 1.17;
@@ -300,4 +305,26 @@ img {
   display: block;
   border-radius: 4px;
   padding: 6px 22px;
+}
+
+.portfolio .container {
+  /* height: 1360px; */
+}
+
+.portfolio-item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 94px;
+}
+
+.portfolio-photo-descriprion {
+  padding: 25px 24px 15px;
+}
+
+.portfolio-photo-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.71;
+  padding-top: 4px;
 }
