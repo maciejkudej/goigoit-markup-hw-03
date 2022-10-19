@@ -107,7 +107,10 @@ img {
 
 .button:hover,
 .button:focus,
-.button:active {
+.button:active,
+.button-portfolio:hover,
+.button-portfolio:focus,
+.button-portfolio:active {
   background-color: var(--brand-blue);
   color: var(--font-light);
 }
@@ -139,6 +142,11 @@ img {
 .hidden {
   visibility: hidden;
   height: 94px;
+}
+
+.btn-hidden {
+  visibility: hidden;
+  height: 74px;
 }
 
 .small-header {
@@ -266,11 +274,30 @@ img {
 }
 
 .btn .container {
-  padding-top: 94px;
+  height: 55px;
+}
+
+.btn-list-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .btn-item {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  border-start-end-radius: 4px;
+  justify-content: center;
+}
+
+.button-portfolio {
+  height: 38px;
+  background-color: var(--background-grey);
+  color: var(--font-dark);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  cursor: pointer;
+  font-family: inherit;
+  display: block;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
