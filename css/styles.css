@@ -8,6 +8,8 @@
   --font-light: #ffffff;
   --font-black: #000000;
   --font-contact-footer: rgba(255, 255, 255, 0.6);
+  --header-bottom-border: #ececec;
+  --portfolio-photo-border: #eeeeee;
 }
 
 body {
@@ -92,7 +94,6 @@ img {
 
 .button {
   width: 200px;
-  height: 50px;
   background-color: var(--background-grey);
   color: var(--font-dark);
   font-size: 16px;
@@ -102,7 +103,7 @@ img {
   font-family: inherit;
   display: block;
   border-radius: 4px;
-  padding: 10px 41px;
+  padding: 11px 41px;
 }
 
 .button:hover,
@@ -122,36 +123,28 @@ img {
 
 .team {
   background-color: var(--background-grey);
-  padding-top: 94px;
 }
 
 .white {
   background-color: var(--background-white);
 }
 
+.section {
+  padding: 94px 0;
+}
+
 .title {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
-  padding: 200px 252px 30px 252px;
+  padding: 106px 252px 30px 252px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .hidden {
-  visibility: hidden;
-  height: 94px;
-}
-
-.btn-hidden {
-  visibility: hidden;
-  height: 74px;
-}
-
-.portfolio-hidden {
-  visibility: hidden;
-  height: 34px;
+  display: none;
 }
 
 .small-header {
@@ -190,7 +183,7 @@ img {
   font-weight: 400;
   line-height: 1.71;
   text-align: center;
-  padding-top: 10px;
+  padding: 10px 0 30px;
 }
 
 .container {
@@ -200,6 +193,10 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   align-items: center;
+}
+
+.header {
+  border-bottom: 1px solid var(--header-bottom-border);
 }
 
 .header .container {
@@ -234,22 +231,17 @@ img {
   margin-left: 50px;
 }
 
-.section-title .container {
-  height: 600px;
+.section-title {
+  padding: 200px auto;
 }
 
-.section-title .button {
+.section .button {
   margin: 0 500px;
 }
 
 .application-list {
   display: flex;
   flex-direction: row;
-}
-
-.presentation .container {
-  height: auto;
-  margin: 94px auto;
 }
 
 .presentation-list {
@@ -259,27 +251,21 @@ img {
   padding-top: 50px;
 }
 
-.designers .container {
-  height: auto;
-  padding-top: 94px auto;
-}
-
 .designers-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 50px;
-  padding-bottom: 94px;
 }
 
 .designers-photo {
-  height: 368px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
+  border: 1px solid var(--header-bottom-border);
 }
 
-.btn .container {
-  height: 55px;
+.btn {
+  padding-bottom: 50px;
 }
 
 .btn-list-item:not(:last-child) {
@@ -294,7 +280,6 @@ img {
 }
 
 .button-portfolio {
-  height: 38px;
   background-color: var(--background-grey);
   color: var(--font-dark);
   font-size: 16px;
@@ -311,11 +296,11 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .portfolio-photo-descriprion {
   padding: 25px 24px 15px;
+  border: 1px solid var(--header-bottom-border);
 }
 
 .portfolio-photo-text {
