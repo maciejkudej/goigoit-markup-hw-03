@@ -109,6 +109,8 @@ img {
   font-family: inherit;
   display: block;
   padding: 11px 41px;
+  border: none;
+  border-radius: 4px;
 }
 
 .button:hover,
@@ -302,6 +304,8 @@ img {
   font-family: inherit;
   display: block;
   padding: 6px 22px;
+  border: none;
+  border-radius: 4px;
 }
 
 .portfolio-item-list {
